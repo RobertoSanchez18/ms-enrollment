@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: vg-ms-enrollment
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:1234@mariaenriqueta.f47y4yu.mongodb.net/?retryWrites=true&w=majority&appName=MariaEnriqueta
+      database: vg-ms-mariaenriqueta
+  vg-ms-student:
+    url: https://8080-vallegrande-vsmsstudent-ckc7isjof6k.ws-us115.gitpod.io/student
+  vg-ms-attorney:
+    url: https://8080-vallegrande-vgmsattorne-i6rynn9v7e4.ws-us115.gitpod.io/attorney
+server:
+  port: 8400
